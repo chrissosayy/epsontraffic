@@ -28,6 +28,6 @@ bindWidget();
         aboutmeButton = (Button) findViewById(R.id.button);
 
 
-    }
+    }   // bindWidget
 } //main class ;คือคำสั่ง
 
