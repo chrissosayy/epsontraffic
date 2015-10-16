@@ -21,10 +21,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="About Me"
-        android:id="@+id/button"
+        android:id="@+id/btnaboutMe"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentEnd="false"
-        android:layout_alignParentStart="false" />
+        />
 
     <ListView
         android:layout_width="wrap_content"
@@ -32,7 +31,7 @@
         android:id="@+id/listView"
         android:smoothScrollbar="false"
         android:layout_below="@+id/txtHead"
-        android:layout_above="@+id/button"
+        android:layout_above="@+id/btnaboutMe"
         android:layout_margin="20dp"
         android:background="#96ffffff" />
 </RelativeLayout>
